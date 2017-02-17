@@ -41,8 +41,9 @@ public class parent {
 		System.out.println("i navigated to the home page");
 		
 		//now lets validate by calling the class that validates the header
-		//we have to define the object for this class parent. that is, we have to tell parent that a class reUsableComponents exists
+		//we have to define the object for this class parent. that is, we have to tell parent (this file) that a class reUsableComponents exists
 		
+		//below we are saying i want to create an object called component, that is from the reUsableComponents class
 		reUsableComponents component=new reUsableComponents();
 		//we create an object component from this method Class reUSableComponents.
 		//if we want to access any methods from reUsableComponents we can do it from 
